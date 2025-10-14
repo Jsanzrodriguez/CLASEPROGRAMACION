@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        // aqui están las diferentes variables
         String nombreCompleto= "JorgeSanz Rodriguez"; //Son palabras y van entre comillas dobles
         nombreCompleto= "Jorge.S.R";
         int edad= 23;
