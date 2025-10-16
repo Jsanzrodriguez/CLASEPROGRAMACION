@@ -60,14 +60,15 @@ public class Operadores {
     }
         public void operadoresLogicos(){
             int sueldo = 20000;
-            int edad = 35;
+            int edad = 45;
             boolean conducir = true;
             boolean candidatoValido = sueldo<30000 && edad<40 && conducir;
             candidatoValido= sueldo<20000 || edad<25 || conducir;
             System.out.println("El resultado del candidato es "+candidatoValido);
-
-
-
+        }
+        public void evaluarCandidato(int sueldo, int edad, boolean conducir) {
+            boolean resultado = sueldo<20000 && edad<40 && conducir;
+            System.out.println("La evaluacion del candidato es "+resultado);
 
 
 
