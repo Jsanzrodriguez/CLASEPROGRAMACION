@@ -66,8 +66,9 @@ public class Operadores {
             candidatoValido= sueldo<20000 || edad<25 || conducir;
             System.out.println("El resultado del candidato es "+candidatoValido);
         }
-        public void evaluarCandidato(int sueldo, int edad, boolean conducir) {
+        public void evaluarCandidato(double sueldo, int edad, boolean conducir, String nombre){
             boolean resultado = sueldo<20000 && edad<40 && conducir;
+            System.out.println("Evaluando al candidato "+nombre);
             System.out.println("La evaluacion del candidato es "+resultado);
 
 
