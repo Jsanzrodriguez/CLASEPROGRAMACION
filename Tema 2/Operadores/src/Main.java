@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Iniciando programa de  operadores");
-        Operadores operacionesVariable = new Operadores();
+        Operador operacionesVariable = new Operador();
         operacionesVariable.operadoresAritmeticos();
         operacionesVariable.operadoresComparacion();
         operacionesVariable.operadoresAsignacion();

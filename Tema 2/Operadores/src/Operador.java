@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class Operadores {
+public class Operador {
 
 
         public void operadoresAritmeticos() {
@@ -69,19 +67,6 @@ public class Operadores {
         public void evaluarCandidato(double sueldo, int edad, boolean conducir, String nombre){
             boolean resultado = sueldo<20000 && edad<40 && conducir;
             System.out.println("Evaluando al candidato "+nombre);
-            System.out.println("La evaluacion del candidato es "+resultado);
-
-
-
-
+            System.out.println("La evaluacion del candidato es "+resultado);}
 
         }
-
-
-
-
-
-
-
-
-}
