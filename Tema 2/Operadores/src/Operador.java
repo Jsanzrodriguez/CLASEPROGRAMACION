@@ -64,6 +64,33 @@ public class Operador {
             candidatoValido= sueldo<20000 || edad<25 || conducir;
             System.out.println("El resultado del candidato es "+candidatoValido);
         }
+        public void cambioTipos(){
+            double numeroDecimal = 5.98;
+            int numeroEntero = 7;
+            System.out.println((double)numeroEntero);
+            System.out.println(numeroEntero);
+            String palabra="12";
+            int numeroPalabra = Integer.valueOf(palabra);
+            System.out.println(numeroPalabra+10);
+
+            String palabraBool ="true";
+            boolean palabraBoolean = Boolean.parseBoolean(palabraBool);
+            System.out.println(palabraBoolean);
+
+            int numeroEvaluar = 12345;
+            String numeroEvaluarStr = String.valueOf(numeroEvaluar);
+            boolean acierto = true;
+            String aciertoStr = String.valueOf(acierto);
+
+
+
+
+
+
+
+
+        }
+
         public void evaluarCandidato(double sueldo, int edad, boolean conducir, String nombre){
             boolean resultado = sueldo<20000 && edad<40 && conducir;
             System.out.println("Evaluando al candidato "+nombre);

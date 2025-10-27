@@ -9,6 +9,7 @@ public class Main {
         operacionesVariable.operadoresComparacion();
         operacionesVariable.operadoresAsignacion();
         operacionesVariable.operadoresLogicos();
+        operacionesVariable.cambioTipos();
         Scanner lectorTeclado = new Scanner(System.in);
         System.out.println("Dime tu nombre");
         String nombre = lectorTeclado.nextLine();
@@ -19,6 +20,7 @@ public class Main {
         System.out.println("Tienes permiso de conducir");
         boolean conducir = lectorTeclado.nextBoolean();
         operacionesVariable.evaluarCandidato(salarioEntrada,edad,conducir,nombre);
+
     }
 
 
