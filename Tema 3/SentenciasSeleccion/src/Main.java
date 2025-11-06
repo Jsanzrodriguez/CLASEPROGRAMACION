@@ -4,6 +4,13 @@ public class Main {
         SentenciaIf.examenAprobado(5);
         SentenciaIf.notaExamen(5);
 
+        SentencialSwitch sentencialSwitch = new SentencialSwitch();
+        sentencialSwitch.usoSwitchInt();
+        sentencialSwitch.usoSwitchString();
+        sentencialSwitch.usoSwitchChar();
+        sentencialSwitch.menuOperaciones();
+
+
 
 
 
