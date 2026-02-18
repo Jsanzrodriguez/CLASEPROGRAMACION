@@ -1,0 +1,1 @@
+Estoi es un ejemplo para poder leer ficheros dese java
